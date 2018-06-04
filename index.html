@@ -1,0 +1,147 @@
+<html>
+       <head>
+           <title>Alpaca Clicker</title>
+           <meta charset="utf-8">
+           <script src="jQuery/jquery-3.1.0.min.js"></script>
+           <script src="jQuery/store+json2.min.js"></script>
+           <script src="alpakka.js"></script>
+		   <script src="jQuery/save.js"></script>
+           <script src="jQuery/popup.js"></script>
+           <script src="jQuery/Modernizr.js"></script>
+           <link rel="stylesheet" type="text/css" href="alpakka.css">
+		   
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87224508-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </head>
+    <body>    
+      
+        <div id="all">
+        <div id="header" >
+        <img src="images/logo.png" height="85px"; >
+			 
+            <button id="changelog">Changelog</button>
+			<button id="donate" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QA8USVLTXPQKS')">
+Donate
+</button>
+			<button id="save">Save</button>
+
+			
+			<div id="button">
+<button class="play"></button>
+<button class="pause"></button>
+
+            </div>
+		
+               </div>
+			<div id="changepop" class="modal"> 
+			 <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">×</span>
+    <h2>CHANGELOG</h2>
+      <p>v.0.4.8: Now you can save buys. Upgrades are also saved, but you have to upgrade once from where u left off to view it.</p>
+	  <p>v.0.4.5: Save button added. It is a bit bugged. </p>
+	  <p>v.0.4: All sounds are now properly muted. Animation update. Added donation button, hehe.</p>
+	  <p>v.0.3: Added number of upgrades and it now shows how much you get for each upgrade. The smuggler is changed.</p>
+	  <p>v.0.2: Created changelog. Added descriptions</p>
+	  <p>v.0.1: Open beta released!</p>
+  </div>
+
+			</div>
+		<!--	<div id="boxes">
+  <div id="dialog" class="window">
+    <h2>Information</h2>If you do not hear any sound or is bugged, press the save button once and then reload (f5).
+      <br> 
+      <p>*** Every upgrade is saved, but you have to buy the item first and one new upgrade before it is shown.</p>
+    <div id="popupfoot"> <a  href="#" class="close agree" style="color:red;">Close</a>  </div>
+  </div>
+  <div id="mask"></div>
+</div>-->
+			
+			<!-- Klikking-->
+            <div id="beggesidene">
+            <div id="venstresida">
+            <div id="seksjon1">
+				
+            <div class="container2">
+                <p id="par">0 <img src="images/ull.png"id="alpakkaull"></p> 
+                <button id="clicker"></button>
+                </div>
+          
+            </div>
+            </div>
+            
+            <div id="hoyresida">
+            <div id ="seksjon2">
+                <!-- Oppgradering -->
+                <div class="container3">
+                    <div id="opgBed"><img src="images/Upgrade.png"><br>Cost: 190<img src="images/ull.png"id="alpakkaull2"> Wool/click: 2 - Upgrades: 0
+                    </div>
+                   
+                </div>
+                <div class="container3">
+                    <div id="opgBo"><img src="images/Upgrade.png"><br>Cost: 50<img src="images/ull.png"id="alpakkaull2"> Wool/s: 1 - Upgrades: 0</div>  
+                </div>
+                <div class="container3">
+                    <div id="opgPo"><img src="images/Upgrade.png"><br>Cost: 1.000<img src="images/ull.png"id="alpakkaull2"> Wool/s: 20 - Upgrades: 0</div>
+                </div>
+                <div class="container3">
+                    <div id="opgSm"><img src="images/Upgrade.png"><br>Cost: 25.000<img src="images/ull.png"id="alpakkaull2"> 11 Polish Men: - Upgrades: 0</div>
+                </div>
+            </div>
+            <!-- Kjøp -->
+        <div id="seksjon3"  >
+        <div class="container">
+            
+          <!-- saks -->
+        <p>RED SHEAR</p><button id="info1" ></button>
+        <div id="pop-up"><h3>The Red Shear</h3><p>This awesome shear increases the amount of wool you gain each click. </p></div>
+			<button id="kjopBed"></button>
+        	<img id="kjoptBed"><p>Cost: 100 <img src="images/ull.png"id="alpakkaull2"></p>
+        </div>
+                   
+        <div class="container">
+            <p>FARMER JOE&nbsp;&nbsp;</p> <button id="info2"></button>
+			 <div id="pop-up2"><h3>Farmer Joe </h3><p>This skilled farmer will ease your clicking load. He will proficiently harvest wool for you each second. </p></div>
+        <button id="kjopBo"></button>
+        <img id="kjoptBo"><p>Cost: 20 <img src="images/ull.png"id="alpakkaull2"></p>
+        </div>
+                      
+        <div class="container">
+            <p>POLISH MAN&nbsp;&nbsp;&nbsp;</p><button id="info3"></button>
+			<div id="pop-up3"><h3>A Polish man </h3><p>This hardworking fellow will help you click even more each second.</p></div>
+        <button id="kjopPo"></button>
+        <img id="kjoptPo"><p>Cost: 1.000 <img src="images/ull.png"id="alpakkaull2"></p>  
+       
+        </div>       
+        
+        <div class="container">
+            <p>SMUGGLER&nbsp;</p><button id="info4"></button>
+			<div id="pop-up4">
+                <h3>Smuggler Rottenikk </h3><p>This sly smuggler has come from far away just to smuggle polish people to your alpaca farm. He smuggles a set amount of polish men each upgrade.<p></div>
+        <button id="kjopSm"></button>
+            <img id="kjoptSm"><p>Cost: 20.000 <img src="images/ull.png"id="alpakkaull2"></p>
+      
+        </div>                           
+       </div>
+        </div>
+       </div>
+</div>
+    </body>
+     <div id="footer">
+        
+        <div> 
+             
+           &copy; 2016 Alpaca Productions. With music from DJ Cdog&trade;. v.0.4.8
+               
+        </div>
+         
+    </div>
+</html>

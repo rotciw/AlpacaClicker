@@ -1,0 +1,666 @@
+@font-face { font-family: AgencyFB; src: url('AgencyFB.ttf'); } 
+
+
+#all {
+
+    background-image: url('images/bak.png');
+    background-repeat: repeat;
+    overflow: hidden;
+    width:100%; 
+    position: relative;
+    
+
+}
+#header {
+  
+	background-color:#353535;
+    overflow: hidden;
+    width:100%
+    position:relative;
+ 
+   
+}
+body {
+    line-height: 1;
+    margin: 0;
+    min-width: 960px;
+    padding: 0;
+    width:100%
+}
+
+p {
+	 color: #252525;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    background: #252525;
+    padding: 16px 0 32px;
+
+}
+#footer div {
+    overflow: hidden;
+   	float:right; 
+	font-family: AgencyFB;
+	color:white;
+	font-size: 20px;
+	margin-right: 30px;
+}
+
+#button {
+    float: right;
+    overflow: hidden;
+}
+
+#clicker { 
+    
+    background-image: url('images/ALPNG.png') ;
+    background-size: 200px 200px;
+    height: 200px;  
+    width: 200px;
+     outline: none !important;
+    background-color:transparent;
+    border: none;
+     cursor:pointer;
+    overflow: hidden;
+	margin-left:-50px;
+}   
+
+#clicker:active {
+  transform: translateY(5px);
+}
+
+#kjopBed {
+    
+    background-image: url('images/klipper.png') ;
+    background-color:transparent;
+    border: none;
+    background-size: 150px 150px ; 
+    height: 150;
+    width: 150;
+     outline: none !important;
+     cursor:pointer;
+    overflow: hidden;
+        float:left;
+}
+
+#kjopBed:active {
+  transform: translateY(3px);
+}
+
+#kjopBo {
+    background-image: url('images/Bonde.png');
+    background-color:transparent;
+    border: none;
+    background-size: 150px 150px; 
+    height: 150;
+    width: 150;
+     outline: none !important;
+     cursor:pointer;
+    overflow: hidden;
+    float:left;
+      margin-bottom:2px;
+}
+
+#kjopBo:active {
+  transform: translateY(3px);
+}
+
+#kjopPo {
+    background-image: url('images/polakk.png');
+    background-color:transparent;
+    border: none;
+    background-size: 150px 150px; 
+    height: 150;
+    width: 150;
+     outline: none !important;
+     cursor:pointer;
+    overflow: hidden;
+        float:left;
+}
+
+#kjopPo:active {
+  transform: translateY(3px);
+}
+#kjopSm{
+        background-image: url('images/smugler.png');
+    background-color:transparent;
+    border: none;
+    background-size: 150px 150px; 
+    height: 150;
+    width: 150;
+     outline: none !important;
+     cursor:pointer;
+    overflow: hidden;
+        float:left;
+    
+}
+#kjopSm:active {
+  transform: translateY(3px);
+}
+.container {
+    background-color: #c0c0c0;
+    width:100%
+        position:relative;
+    padding-top: 100%;
+   height:210px;
+    border: dashed 1px #353535;
+    border-width: 3px;
+    overflow: hidden;
+   text-align: center;
+    font-family: AgencyFB;
+    font-size:32px;
+    padding:20px;
+   
+}
+
+#seksjon1 {
+    float:left;
+    margin-left: 6%;
+    margin-top:5%;
+    width:50%
+    position:fixed;
+  
+}
+#seksjon2 {
+    float:right;
+    width:40%;
+       margin-bottom:3px;
+    margin-top: 3px;
+   width:100%
+        position:relative;
+}
+#seksjon3 {
+    float:right;
+    margin-bottom:3px;
+    margin-top: 3px;
+   width:100%
+        position:relative;
+  
+}
+
+.container2 {
+     background-image: url('images/farm.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: transparent;
+    width:360px;
+    width:100%
+        position:relative;
+    padding-top: 100%;
+    border: dashed 2px #353535;
+    border-width: 3px;
+    padding:50px;
+    overflow: hidden;
+    text-align: center;
+    
+   
+}
+.container3 {
+    height:170px;
+     background-color: #c0c0c0;
+    border: dashed 1px #353535;
+    border-width: 3px;
+    padding:40px;
+    overflow: hidden;
+    text-align: center;
+    font-family: AgencyFB;
+    font-size:30px;
+    color: #ff0000;
+}
+#par {
+    color:black;
+    font-weight: bold;
+    font-family: AgencyFB;
+    color: #353535;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 10%;
+    
+  
+}
+
+#button {
+    margin-right:1%;
+    margin-top: 1%;
+   
+}
+
+#changelog {
+    float:right;
+     margin-right:2%;
+	margin-top: 1%;  
+	font-family: AgencyFB;
+	font-weight: bold;
+	font-size: 30px;
+	cursor:pointer;
+	display: inline-block;
+	padding: 5px 15px;
+	border: none;
+    text-align: center;
+    text-decoration: none;
+ background-color: teal;
+	color:white;
+	outline:none;
+}
+
+#donate {
+    float:right;
+     margin-right:1%;
+	margin-top: 1%;  
+	font-family: AgencyFB;
+	font-weight: bold;
+	font-size: 30px;
+	cursor:pointer;
+	display: inline-block;
+	padding: 5px 15px;
+	border: none;
+    text-align: center;
+    text-decoration: none;
+ 	background-color: teal;
+	color:white;
+	outline:none;
+}
+
+#save {
+    float:right;
+     margin-right:1%;
+	margin-top: 1%;  
+	font-family: AgencyFB;
+	font-weight: bold;
+	font-size: 30px;
+	cursor:pointer;
+	display: inline-block;
+	padding: 5px 15px;
+	border: none;
+    text-align: center;
+    text-decoration: none;
+ 	background-color: teal;
+	color:white;
+	outline:none;
+}
+
+#reset {
+    float:right;
+     margin-right:1%;
+	margin-top: 1%;  
+	font-family: AgencyFB;
+	font-weight: bold;
+	font-size: 30px;
+	cursor:pointer;
+	display: inline-block;
+	padding: 5px 15px;
+	border: none;
+    text-align: center;
+    text-decoration: none;
+ 	background-color: teal;
+	color:white;
+	outline:none;
+}
+
+div#changepop {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+	font-size: 19px;
+
+}
+.play {
+    background-image: url("images/sound.png");
+       background-color: transparent;
+    background-repeat: no-repeat;
+     height: 50;
+    width: 50;
+     border: none;
+     outline: none !important;
+    cursor: pointer;
+}
+.pause {
+    background-image: url("images/mute.png");
+       background-color: transparent;
+    background-repeat: no-repeat;
+     height: 50;
+    width: 50;
+     border: none;
+     outline: none !important;
+    cursor:pointer;
+}
+
+#alpakkaull {
+    width: 50px;
+    height: 50px;
+    position: sticky;
+}
+#alpakkaull2 {
+    width: 30px;
+    height: 30px;
+    position: sticky;
+   
+}
+#kjoptBo {
+    background-image: url('images/BondeBW.png');
+    background-color:transparent;
+    border: none;
+    background-size: 150px 150px; 
+    height: 150;
+    width: 150;
+    outline: none !important;
+    overflow: hidden;
+    float:left;
+    margin-bottom:2px;
+}
+#kjoptPo {
+    background-image: url('images/polakkBW.png');
+    background-color:transparent;
+    border: none;
+    background-size: 150px 150px; 
+    height: 150;
+    width: 150;
+    outline: none !important;
+    overflow: hidden;
+    float:left;
+    
+}
+#kjoptSm {
+    background-image: url('images/smuglerBW.png');
+    background-color:transparent;
+    border: none;
+    background-size: 150px 150px; 
+    height: 150;
+    width: 150;
+    outline: none !important;
+    overflow: hidden;
+    float:left;
+}
+#kjoptBed {
+    background-image: url('images/klipperBW.png');
+    background-color:transparent;
+    border: none;
+    background-size: 150px 150px; 
+    height: 150;
+    width: 150;
+    outline: none !important;
+    overflow: hidden;
+    float:left;
+}
+
+
+
+#opgBed {
+  
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+    background-position:center;
+    overflow: hidden;
+}
+
+#opgBed:active {
+  transform: translateY(3px);
+}
+#opgBo {
+  
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+    background-position:center;
+    overflow: hidden;
+}
+#opgBo:active {
+  transform: translateY(3px);
+}
+#opgPo {
+  
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+    background-position:center;
+    overflow: hidden;
+    
+}
+#opgPo:active {
+  transform: translateY(3px);
+}
+#opgSm {
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+    background-position:center;
+    overflow: hidden;
+}
+#opgSm:active {
+  transform: translateY(3px);
+}
+
+#info1 { 
+    background-image: url('images/Info.png') ;
+    background-size: 30px 30px;
+    height: 30px;  
+    width: 30px;
+     outline: none !important;
+    background-color:transparent;
+    border: none;
+    overflow: hidden;
+    margin-top: -28px;
+    margin-left:15px;
+}   
+
+#info2 { 
+    background-image: url('images/Info.png') ;
+    background-size: 30px 30px;
+    height: 30px;  
+    width: 30px;
+     outline: none !important;
+    background-color:transparent;
+    border: none;
+    overflow: hidden;
+    margin-top: -28px;
+    margin-left:15px;
+}   
+#info3 { 
+    background-image: url('images/Info.png') ;
+    background-size: 30px 30px;
+    height: 30px;  
+    width: 30px;
+     outline: none !important;
+    background-color:transparent;
+    border: none;
+    overflow: hidden;
+    margin-top: -28px;
+    margin-left:15px;
+}   
+#info4 { 
+    background-image: url('images/Info.png') ;
+    background-size: 30px 30px;
+    height: 30px;  
+    width: 30px;
+     outline: none !important;
+    background-color:transparent;
+    border: none;
+    overflow: hidden;
+    margin-top: -28px;
+    margin-left:15px;
+}   
+div#pop-up {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+	font-size: 19px;
+
+}
+div#pop-up2 {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+	font-size: 19px;
+
+}
+
+div#pop-up3 {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+	font-size: 19px;
+
+}
+
+div#pop-up4 {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+	font-size: 19px;
+
+}
+
+.modal {
+	background-color:teal;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding: 10px; /* Location of the box */
+    left: 50%;
+    top: 10%;
+    width: auto; /* Full width */
+    height: auto; /* Full height */
+  color:white;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color:teal;
+    padding:15px;
+	margin:-15px;
+    border: 8px double black;
+	color:white;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+	
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+	font-family: arial;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+     
+}
+
+#boxes .window {
+  position: absolute;
+  left: 0;
+  top: 0%;
+  width: 440px;
+  height: 100px;
+  display: none;
+  z-index: 9999;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+#boxes #dialog {
+  width: 750px;
+  height: 300px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: AgencyFB;
+    font-size: 29px;
+       
+    
+}
+#boxes #dialog p {
+ font-size: 20px;
+       
+    
+}
+
+#boxes #dialog .close {
+
+  float: none;
+  font-family: AgencyFB;
+  font-size: 30px;
+    
+}
+#popupfoot {
+  font-size: 30pt;
+  position: absolute;
+  bottom: 50px;
+  width: 250px;
+  left: 250px;
+}
